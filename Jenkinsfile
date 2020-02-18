@@ -19,7 +19,7 @@ pipeline {
 			steps {
 					script {
 					echo "Deployment"
-					sh 'sudo cp /var/lib/jenkins/workspace/PipelineJob/target/addressbook.war /usr/share/tomcat/webapps/'
+					sh 'sudo cp /var/lib/jenkins/workspace/Package/target/addressbook.war /usr/share/tomcat/webapps/'
 				}
 			}
 		}
