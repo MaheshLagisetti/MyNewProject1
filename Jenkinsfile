@@ -10,7 +10,7 @@ pipeline {
 		stage('Build') {
 			steps {
 					dir('') {
-					sh '/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/myMaven361/bin/mvn -B -V -U -e clean package'
+					sh '/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/MyMaven/bin/mvn -B -V -U -e clean package'
 				}
 			}
 		}
